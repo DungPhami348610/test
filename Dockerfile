@@ -9,5 +9,5 @@ RUN export http_proxy="http://proxy:8080"; export https_proxy="https://proxy:808
 COPY fqdn.conf /etc/apache2/conf-available/fqdn.conf
 RUN a2enconf fqdn
 
-EXPOSE 81
+EXPOSE 80
 
